@@ -1,16 +1,21 @@
+:root {
+    --page-color: darkblue;
+    --text-padding: 20px;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--page-color);
     padding: 10px;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: var(--text-padding);
 }
 
 h1 {
-    color: darkblue;
+    color: var(--page-color);
 }
 
 main img {
@@ -33,7 +38,7 @@ aside {
     width: 13em;
     margin: 1em;
     border: 1px solid rgb(0, 0, 0, .2);
-    padding: 20px;
+    padding: var(--text-padding);
     background-color: lightblue;
     color: black;
 }

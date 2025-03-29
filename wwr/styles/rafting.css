@@ -157,22 +157,17 @@ p {
     padding: 30px;
 }
 
-#adventure div {
+#adventure {
     display: flex;
     gap: auto;
     justify-content: space-around;
-}
-
-
-}
-
-#adventure {
-    position: relative;
+    flex-wrap: wrap;
 }
 
 #adventure h2 {
     text-align: center;
     margin: 1em;
+    flex-basis: 100%;
 }
 
 #adventure img {

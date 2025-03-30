@@ -53,7 +53,8 @@ h2 {
 }
 
 .hero article img {
-    width: 30%;
+    width: auto;
+    max-width: 200px;
     float: right;
     border: 1px solid #000;
     border-radius: 45%;
@@ -61,7 +62,7 @@ h2 {
 
 .hero p {
     color: white;
-    grid-area: 2/2/3/3;
+    align-items: center;
 }
 
 .hero h1 {

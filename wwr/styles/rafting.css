@@ -46,6 +46,9 @@ h2 {
 
 .hero article {
     grid-area: 2/2/3/3;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
     background-color: #9bc79480;
     padding: 5rem;
@@ -64,6 +67,7 @@ h2 {
 .hero p {
     color: white;
     align-items: center;
+    line-height: 1.6;
     font-size: 1.2rem;
     max-width: 600px;
 }

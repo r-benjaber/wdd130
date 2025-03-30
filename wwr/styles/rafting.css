@@ -158,7 +158,6 @@ p {
 
 #adventure {
     display: flex;
-    gap: 30px;
     justify-content: space-around;
     flex-wrap: wrap;
 }
@@ -178,6 +177,7 @@ p {
     border: 1px solid black;
     border-radius: 5%;
     transition: transform 1s ease;
+    margin: 30px 0;
 }
 
 #adventure figure:hover {

@@ -47,7 +47,7 @@ h2 {
 .hero article {
     grid-area: 2/2/3/3;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: flex-start;
     align-items: center;
     background-color: #9bc79480;

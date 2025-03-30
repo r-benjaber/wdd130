@@ -67,9 +67,6 @@ h2 {
 .hero p {
     color: white;
     align-items: center;
-    line-height: 1.6;
-    font-size: 1.2rem;
-    max-width: 600px;
 }
 
 .hero h1 {

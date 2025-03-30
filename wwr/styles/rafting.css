@@ -61,6 +61,7 @@ h2 {
 
 .hero p {
     color: white;
+    grid-area: 2/2/3/3;
 }
 
 .hero h1 {

@@ -103,10 +103,8 @@ nav a {
     justify-content: flex-end;
     align-items: center;
     padding: 20px 50px;
-    margin: ;
     text-decoration: none;
     color: var(--secondary-color);
-
 }
 
 header nav a:hover {
@@ -136,7 +134,6 @@ p {
 
 .history img {
     grid-column: 2 / 3;
-    padding: auto;
     border: 1px solid black;
     transition: transform 1s ease;
 }
@@ -159,7 +156,6 @@ p {
 
 #adventure {
     display: flex;
-    gap: auto;
     justify-content: space-around;
     flex-wrap: wrap;
 }

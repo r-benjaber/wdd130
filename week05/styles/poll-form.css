@@ -78,6 +78,10 @@ button:hover {
     background-color: darkgreen;
 }
 
+button:active{
+    transform: scale(0.9);
+}
+
 footer {
     font-family: DM serif text, serif;
     max-width: 700px;

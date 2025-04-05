@@ -24,49 +24,64 @@
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
-    <h1>Contact Us</h1>
+    <h1>South Rivers Rafting</h1>
     <main>
-        <div id="company-info">
-            <p>S-921 2542, Pucon, Araucania, Chile</p>
-            <p>+56 (57) 480549 </p>
-            <p>info@southriverrafting.com</p>
-            <div id="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1181.5338705666466!2d-71.9212509316351!3d-39.2711610692766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96147f42351988d1%3A0x3c5c238b02dc5935!2zUHVjb24sIFB1Y8OzbiwgQXJhdWNhbsOtYSwgQ2hpbGU!5e0!3m2!1ses!2spy!4v1743853510769!5m2!1ses!2spy" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div id="contact-hero">
+            <div id="company-info">
+                <div id="info">
+                    <img src="images/address.svg"><p>S-921 2542, Pucon, Araucania, Chile</p><br>
+                    <img src="images/phone.svg"><p>+56 (57) 480549 </p><br>
+                    <img src="images/email.svg"><p>info@southriverrafting.com</p><br>
+                </div>
+                <div id="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1181.5338705666466!2d-71.9212509316351!3d-39.2711610692766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96147f42351988d1%3A0x3c5c238b02dc5935!2zUHVjb24sIFB1Y8OzbiwgQXJhdWNhbsOtYSwgQ2hpbGU!5e0!3m2!1ses!2spy!4v1743853510769!5m2!1ses!2spy"
+                        width="600" height="450" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
+            <section id="employees">
+                <h2>Our Staff</h2>
+                <figure>
+                    <img src="images/employee.webp" alt="...">
+                    <figcaption>Sergio Sanabria - Customer Servie Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.webp" alt="...">
+                    <figcaption>Rodolfo Rodriguez - Human Resources Representative</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.webp" alt="...">
+                    <figcaption>Sebastião Sousa - Sales Representative</figcaption>
+                </figure>
+            </section>
         </div>
-        <section id="employees">
-            <figure>
-                <img src="images/employee.webp" alt="...">
-                <figcaption>Sergio Sanabria - Customer Servie Manager</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee2.webp" alt="...">
-                <figcaption>Rodolfo Rodriguez - Human Resources Representative</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee3.webp" alt="...">
-                <figcaption>Sebastião Sousa - Sales Representative</figcaption>
-            </figure>
-        </section>
         <form>
-            <fieldset>
-                <legend>Write a message</legend>
+            <fieldset id="personalinfo">
+                <legend>Personal Information</legend>
                 <label for="username">Your Name: </label>
                 <input type="text" id="username" name="username">
                 <label for="useremail">Your Email: </label>
                 <input type="email" id="useremail" name="useremail">
+            </fieldset>
+            <fieldset id="radioform">
                 <legend>Purpose of the message: </legend>
                 <input type="radio" id="purpose1" name="purpose" value="GeneralInquiry">
-                <label for="purpose1">Genaral Inquiry</label>
+                <label for="purpose1">Genaral Inquiry</label><br>
                 <input type="radio" id="purpose2" name="purpose" value="ReservationQuestion">
-                <label for="purpose2">Reservation Question</label>
+                <label for="purpose2">Reservation Question</label><br>
                 <input type="radio" id="purpose3" name="purpose" value="WebsiteSugestion">
-                <label for="purpose3">Website Sugestion</label>
-                <textarea id="feedback" name="feedback" placeholder="Write your message here..."></textarea>
-                <input type="checkbox" id="suscribe" name="suscribe" value="suscribed">
-                <label for="suscribe">Please suscribe me to the monthly newsletter</label>
-                <button type="submit">Submit message</button>
+                <label for="purpose3">Website Sugestion</label><br>
             </fieldset>
+            <fieldset id="message">
+                <legend>Message</legend>
+                <textarea id="feedback" name="feedback" placeholder="Write your message here..."></textarea><br>
+                <div>
+                    <input type="checkbox" id="suscribe" name="suscribe" value="suscribed">
+                    <label for="suscribe">Please suscribe me to the monthly newsletter</label><br>
+                </div>
+                </fieldset>
+            <button type="submit">Submit message</button>
         </form>
     </main>
     <footer>

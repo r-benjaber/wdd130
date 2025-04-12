@@ -488,3 +488,7 @@ button:active {
 .gotoaction a:active{
     transform: scale(0.95);
 }
+
+#grid-layout{
+    display: grid;
+}
